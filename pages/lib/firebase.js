@@ -3,12 +3,12 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID
+  apiKey: process.env.AIzaSyDSAe-nOV_yJeFcsUYLaAcPYbMGgVOo_F4,
+  authDomain: process.env.nfc-business-card-d4008.firebaseapp.com,
+  projectId: process.env.nfc-business-card-d4008,
+  storageBucket: process.env.nfc-business-card-d4008.firebasestorage.app,
+  messagingSenderId: process.env.449358567490,
+  appId: process.env.1:449358567490:web:129edefee24b74c05775db
 };
 
 const app = initializeApp(firebaseConfig);
